@@ -1,0 +1,7 @@
+- model: dir-check
+  description: Guild AI using directories
+  operations:
+    train:
+      main: src/train
+      requires:
+        - file: data/file.txt
