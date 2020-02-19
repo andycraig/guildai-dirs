@@ -5,3 +5,4 @@
       main: src/train
       requires:
         - file: data/file.txt
+          path: data
